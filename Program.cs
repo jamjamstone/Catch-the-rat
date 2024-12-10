@@ -178,12 +178,7 @@ namespace minigame1// 구현해볼 기능=> 쥐가 도망을 감<=구현, 쥐가
                     arr[x, y] = 1;
                     mouseRefillCount++;
                 }
-
-
             }
-
-
-
         }
         static void drawGame(int[,] arr,ref Scores score) //게임판 만들어주는 함수 -> 여기서 특수칸의 숫자를 3부터 할당해서 특수칸도 구현 가능
         {
